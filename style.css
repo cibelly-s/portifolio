@@ -1,0 +1,24 @@
+*{
+    border: 0; /*tentei tirar a borda do navegador*/ 
+}
+body{
+    background-color: black; /*Cor do fundo do elemento*/
+}
+.links{ /*Tabela*/
+    background-color: #808080; /*Cor do fundo do elemento*/
+    color: rgb(140, 181, 214); /*Cor do elemento*/
+    height: 80px; /*Altura*/
+    width: 1355px; /*Largura*/
+    font-size: 2em; /*Tamanho da fonte*/
+    
+}
+.caixa1{ /*Caixa (div)*/
+    background-color: #8d8d8d; /*Cor do fundo do elemento*/
+    color: rgb(255, 255, 255); /*Cor do elemento*/
+    border: 8px; /*Borda*/
+    border-radius: 16px; /*da forma arredondada conforme nossa escolha*/
+    padding: 20px; /*Espaçamento interno*/
+    margin-top: 45px; /*Margin do topo*/
+    width: 220px;  /*Largura*/
+    height: 260px; /*Altura*/
+}
