@@ -1,24 +1,118 @@
-*{
-    border: 0; /*tentei tirar a borda do navegador*/ 
+body {
+    background-color: black;
+    /*Cor do fundo do elemento*/
 }
-body{
-    background-color: black; /*Cor do fundo do elemento*/
+
+.links {
+    /*Tabela*/
+    background-color: #808080;
+    /*Cor do fundo do elemento*/
+    color: #8cb5d6;
+    /*Cor do elemento*/
+    display: flex;
+    /*Coloca tudo na mesma linha*/
+    align-items: center;
+    /*Alinha verticalmente*/
+    gap: 100px;
+    /*Espaço entre os nomes e os links*/
+    padding: 40px;
+    /*Espaço interno dos elementos*/
+
 }
-.links{ /*Tabela*/
-    background-color: #808080; /*Cor do fundo do elemento*/
-    color: rgb(140, 181, 214); /*Cor do elemento*/
-    height: 80px; /*Altura*/
-    width: 1355px; /*Largura*/
-    font-size: 2em; /*Tamanho da fonte*/
+
+.topicos {
+
+    padding: 50px;
+    margin-top: 150px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 150px;
+}
+
+.caixa1 {
+    /*Caixa (div)*/
+    background-color: #8d8d8d;
+    /*Cor do fundo do elemento*/
+    color: rgb(255, 255, 255);
+    /*Cor do elemento*/
+    border: 8px;
+    /*Borda*/
+    border-radius: 100px;
+    /*da forma arredondada conforme nossa escolha*/
+    padding: 50px;
+    /*Espaçamento interno*/
+    margin-top: 45px;
+    /*Margin do topo*/
+    width: 350px;
+    /*Largura*/
+    margin-bottom: 100px;
+    /*margem de baixo*/
+    font-size: 20px;
+    /*tamanho da fonte*/
+    display: flex;
+    /*coloca tudo na mesma linha*/
+}
+
+.identificaçao {
+    color: white;
+    margin-right: 500px;
+}
+
+#eu {
+    border-radius: 30px;
+    padding: 43px;
+    width: 290px;
+    height: 220px;
+    background-color: #808080;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.caixa-foto {
+    text-align: center;
+}
+
+.sobre {
+    display: flex;
+
+}
+
+#titulo {
+    color: #8cb5d6;
+    font-size: 6em;
+    margin: 0;
+}
+
+#titu-habilidades {
+    color: #8cb5d6;
+    font-size: 6em;
+    margin: 0;
+}
+
+.seçao-habilidades {
     
 }
-.caixa1{ /*Caixa (div)*/
-    background-color: #8d8d8d; /*Cor do fundo do elemento*/
-    color: rgb(255, 255, 255); /*Cor do elemento*/
-    border: 8px; /*Borda*/
-    border-radius: 16px; /*da forma arredondada conforme nossa escolha*/
-    padding: 20px; /*Espaçamento interno*/
-    margin-top: 45px; /*Margin do topo*/
-    width: 220px;  /*Largura*/
-    height: 260px; /*Altura*/
+
+.caixa-habilidades {
+    background-color: #808080;
+    color: white;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 43px;
+    width: 400px;
+    height: 200px;
+    margin-left: 350px;
+    display: inline-block;  
+}
+
+.lista {
+    color: white;
+    gap: 50px;
+}
+#caixa-foto23{
+    width: 350px;
+    display: inline-block;
+
 }
